@@ -1,17 +1,17 @@
 {
-  "name": "web-scrapper",
+  "name": "scrapping",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
   },
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "playwright-chromium": "^1.31.1"
+  },
   "devDependencies": {
     "eslint": "^8.34.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "playwright": "^1.31.1"
+    "eslint-plugin-import": "^2.27.5"
   }
 }
